@@ -20,3 +20,7 @@
   -webkit-line-clamp: 5;      /* показывать только 2 строки */
   overflow: hidden;           /* скрыть лишнее */
 }
+a {
+    text-decoration: none;
+    color: black;
+}

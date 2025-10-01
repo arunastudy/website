@@ -18,7 +18,7 @@ function Category() {
     <div className='category-container'>
         {
             category.map((item)=> (
-                <Link to={``} key={item.idCategory} className='category-list'>
+                <Link to={`/seafood/${item.strCategory}`} key={item.idCategory} className='category-list'>
                     <img src={item.strCategoryThumb} alt="" />
                     <h1>{item.strCategory}</h1>
                     <p>{item.strCategoryDescription}</p>
