@@ -14,10 +14,8 @@ function Seafood() {
 
     console.log(food)
 
-
   return (
-    <div>
-      
+    <div> 
     </div>
   )
 }
